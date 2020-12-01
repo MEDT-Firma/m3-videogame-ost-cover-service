@@ -1,7 +1,7 @@
 <?php
 
 
-class OST
+class Track
 {
     public $uid;
     public $name;
@@ -10,3 +10,14 @@ class OST
     public $duration;
     //  name, artist, track number and duration
 }
+
+class OST
+{
+    public $uid;
+    public $name;
+    public $game_name;
+    public $release_year;
+    public $track_list;
+}
+
+// funktion die alle ost aus einer xml in einen array ausliest
