@@ -3,7 +3,7 @@ include "ost.php";
 
 class Seeder
 {
-    function getDemoData()
+    static function getDemoData()
     {
         return [new OST(1, 'Doom (Original Game Soundtrack)', 'Doom', 2016,
             [
