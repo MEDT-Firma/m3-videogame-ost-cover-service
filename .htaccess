@@ -1,3 +1,3 @@
 RewriteEngine on
-RewriteRule ^all$ speaking.php [NC]
+RewriteRule ^all$ json_return.php [NC]
 RewriteRule ^id/(\d+)$ json_return.php?ost_id=$1 [QSA]
