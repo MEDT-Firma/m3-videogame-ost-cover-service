@@ -1,5 +1,3 @@
 RewriteEngine on
-RewriteRule ^about about.html [NC]
 RewriteRule ^all$ speaking.php [NC]
-RewriteRule ^([A-Za-z0-9]+)/(all) speaking.php?item=$1 [QSA]
 RewriteRule ^id/(\d+)$ json_return.php?ost_id=$1 [QSA]
